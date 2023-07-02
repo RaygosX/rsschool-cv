@@ -25,3 +25,8 @@ I have no relevant work experience, since the performance of my duties did not r
 
 I would like to develop in IT as a front-end developer, mobile app developer or game developer.
 
+# Skills
+   - HTML5 & CSS
+   - Git, GitHub
+   - VS Code
+   - JavaScript basic
