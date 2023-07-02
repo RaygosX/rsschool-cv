@@ -30,3 +30,19 @@ I would like to develop in IT as a front-end developer, mobile app developer or 
    - Git, GitHub
    - VS Code
    - JavaScript basic
+
+# Code example:
+Task:
+
+Write a function to split a string and convert it into an array of words.
+
+Examples (Input ==> Output):
+```
+"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+```
+Decision:
+```
+function stringToArray(string="I love arrays they are my favorite"){
+  return  string.split(" ")
+  }
+```
