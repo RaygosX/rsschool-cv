@@ -46,3 +46,12 @@ function stringToArray(string="I love arrays they are my favorite"){
   return  string.split(" ")
   }
 ```
+
+
+# Courses:
+RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+# Languages
+Russian: Native
+
+English: Pre-intermediate (A2)
