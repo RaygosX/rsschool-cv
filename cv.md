@@ -7,3 +7,21 @@
     - **Messengers:**
         + Telegram: @Raygos
         + Discord: Rayg0s
+
+# About me
+
+*Greetings!*
+
+I am Dmitry.
+Gender - male.
+I am 32 years old.
+Residence - Russia, Lipetsk.
+
+I successfully completed my studies at the Lipetsk State Technical University with a degree in energy engineering and economics.
+
+I worked in such organizations as: NLMK, Federal Treasury of Russia, Federal Tax Service of Russia (current). Achieved the position of chief state tax inspector.
+
+I have no relevant work experience, since the performance of my duties did not require knowledge of programming languages. However, I am able to work in a team, I can make quick decisions in stressful situations, I can manipulate a wide variety of tasks, set priorities and solve problems on time.
+
+I would like to develop in IT as a front-end developer, mobile app developer or game developer.
+
