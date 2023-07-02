@@ -40,7 +40,7 @@ Examples (Input ==> Output):
 ```
 "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 ```
-Decision:
+Solution:
 ```
 function stringToArray(string="I love arrays they are my favorite"){
   return  string.split(" ")
