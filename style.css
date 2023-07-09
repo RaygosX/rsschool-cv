@@ -1,16 +1,42 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-table {
-    border-collapse: collapse;
+
+.header{
+    margin-top: 50px;
+    width: 1024px;
+    margin: 30px auto 0;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+
+/*Header*/
+.header-title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-table.border th {
-    background: #e0e0e0;
+.main{
+    width: 1024px;
+    margin: 0px auto 0;
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(backgrd.jpg);
+    background-size: contain;
+}
+.main-title_text{
+    margin-right: 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:ghostwhite; 
+    font-size: 32px;
+    background: none;
+}
+.main-info{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
