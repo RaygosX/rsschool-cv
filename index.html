@@ -12,25 +12,24 @@
   <title>Dmitry Hohloff CV</title>
 </head>
 <!-- Body -->
-<body>
+<body class="body">
   <!-- Header -->
   <header class="header">
       <div class="header-title">
         <p>
           <b>E-mail:</b>newraygos@gmail.com 
           <b>Phone:</b>+7(919)1623717 
-          <b>Telegramm:</b>@Raygos 
+          <b>Telegram:</b>@Raygos 
           <b>Discord:</b>Rayg0s
         </p>
         <nav class="icons">
           <a href="https://vk.com/raygos"><img src="icons/vk.svg" width="25px" height="25px"></a>
-          <a href="https://github.com/RaygosX"><img src="icons/github.svg" width="25px" height="25px"></a>
         </nav>
       </div>
   </header>
   <!-- Main -->
   <main class="main">
-    <!--Photo and Title-->
+    <!-- Photo and Title -->
     <div class="main-title">
       <img src="photo.jpg" alt="Dmitry Hohloff" width="310" height="360" title="Dmitry Hohloff">
       <div class="main-title_text">
@@ -38,21 +37,73 @@
         <p>Junior Front-end Developer</p>
       </div>
     </div>
-    <!--About me-->
-    <div>
+    
+    <div class="wrapper-main">
+        <!-- About me -->
         <div class="main-info">
-          <h4>Greetings!</h4>
-          <p>I am Dmitry. Gender - male. I am 32 years old. Residence - Russia, Lipetsk.</p>
+          <h2>Greetings!</h2>
+          <p>I am Dmitry. Male. 32 years old. Residence - Russia, Lipetsk.</p>
           <h4>About studies</h4>
           <p>I successfully completed my studies at the Lipetsk State Technical University in 2 specialties: an energy engineer and an economist.</p>
           <h4>About working</h4>
-          <p>I worked in such organizations as: NLMK, Federal Treasury of Russia, Federal Tax Service of Russia (current). Achieved the position of chief state tax inspector.</p>
+          <p>I worked in such organizations as: NLMK, Federal Treasury of Russia, Federal Tax Service of Russia (current). 
+            Achieved the position of chief state tax inspector.</p>
+          <h4>About experience</h4>
+          <p>I have no relevant work experience, since the performance of my duties did not require knowledge of programming languages. 
+            However, I am able to work in a team, I can make quick decisions in stressful situations, I can manipulate a wide variety of tasks, 
+            set priorities and solve problems on time.</p>
+          <h4>About aspirations</h4>  
+          <p>I would like to develop in IT as a front-end developer, mobile app developer or game developer.</p>
         </div>
+        <!-- Skills and Langs -->
+        <div class="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>HTML5 & CSS</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>JavaScript</li>
+            </ul>
+            
+            <h1 class="lang">Languages</h1>
+            <ul>
+                <li>Russian: Native</li>
+                <li>English: Pre-intermediate</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Code example -->
+    <div class="code">
+        <h2>Code example</h2>
+        <h4>Task:</h4>
+        <p>Write a function to split a string and convert it into an array of words.</p>
+        <p>Examples (Input ==> Output):</p>
+        <code class="code-example">
+          "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+        </code>
+        <h4>Solution:</h4>
+          <code class="code-example">function stringToArray(string="I love arrays they are my favorite"){</code>
+          <code class="code-example"><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp return  string.split(" ")</code>
+          <code class="code-example"><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp }</code>          
+    </div>
+    <!-- Courses -->
+    <div class="course">
+        <h2>Courses</h2>
+        <p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
     </div>
   </main>
   <!-- Footer -->
   <footer>
-
+    <div class="footer">
+       
+        <div class="footer-text">
+            <a href="https://github.com/RaygosX"><img src="icons/github.svg" width="40px" height="40px"></a>
+        </div>
+        <div class="footer-text">2023</div>
+        <div class="footer-text">
+            <a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" width="80px" height="40px"></a>
+        </div>
+    </div>
   </footer>
 
 </body>
