@@ -1,16 +1,103 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-table {
-    border-collapse: collapse;
+ul{
+    list-style: none;
+    line-height: 2.5;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+
+.body{
+    line-height: 1.5;
+    
 }
-table.border th {
-    background: #e0e0e0;
+
+.header{
+    margin-top: 50px;
+    width: 1024px;
+    margin: 30px auto 0;
+}
+
+/*Header*/
+.header-title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    width: 1024px;
+    margin: 0px auto 0;
+    box-shadow: 10px 5px 5px rgb(99, 99, 99);
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(backgrd.jpg);
+    background-size: contain;
+}
+.main-title_text{
+    margin-right: 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:ghostwhite; 
+    font-size: 32px;
+    background: none;
+}
+.wrapper-main{
+    display: flex;
+    column-gap: 30px;
+    
+    background-color:lavender;
+}
+.main-info{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 75%;
+    padding: 2mm;
+    text-align:justify;
+}
+.skills {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:ghostwhite;
+    display: inline-block;
+    width: 25%;
+    background-color:midnightblue;
+    text-align: center;
+}
+.lang{
+    margin-top: 20%;
+}
+.code{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: dashed gray;
+    padding-left: 2mm;
+    background-color:lemonchiffon;
+}
+.course{ 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 2mm;
+    background-color:lightcyan;
+}
+.code-example{
+    margin-left: 50px;   
+    font-size: 16px;
+    font-weight: 600;
+    color: darkblue;
+}
+.footer{
+    width: 1024px;
+    margin: 0px auto 0;
+    column-gap: 42%;
+    display: flex; 
+    font-size: 20px;
+}
+.footer-text{   
+text-align: center;
 }
