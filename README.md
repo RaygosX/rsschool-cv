@@ -1,2 +1,2 @@
-https://RaygisX.github.io/rsschool-cv/cv
-https://RaygisX.github.io/rsschool-cv/
+https://RaygosX.github.io/rsschool-cv/cv
+https://RaygosX.github.io/rsschool-cv/
