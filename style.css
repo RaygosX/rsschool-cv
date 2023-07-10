@@ -10,7 +10,6 @@ ul{
 
 .body{
     line-height: 1.5;
-    
 }
 
 .header{
@@ -80,7 +79,7 @@ ul{
 .code{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    border: dashed gray;
+    border: double gray;
     padding-left: 2mm;
     background-color:lemonchiffon;
 }
